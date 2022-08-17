@@ -1,0 +1,301 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SharpHook/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SharpHook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SharpHook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libuiohook.so.1": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libuiohook.so.1.2.0": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libuiohook.so.1": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libuiohook.so.1.2.0": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libuiohook.so.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libuiohook.so.1.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libuiohook.1.2.0.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libuiohook.1.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libuiohook.1.2.0.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libuiohook.1.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm64/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SharpHook.Reactive/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpHook": "3.1.1",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0/SharpHook.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SharpHook.Reactive.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharpHook/3.1.1": {
+      "sha512": "Sfqlyv5JLJbhMaXkvyEgM/2i1DAlBPLaMpeCHDFN8Dp9J3AbO9HTL+Er5y0nut5E1RGlQAiHdf9glrds9Cpp/w==",
+      "type": "package",
+      "path": "sharphook/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net461/SharpHook.dll",
+        "lib/net461/SharpHook.xml",
+        "lib/net5.0/SharpHook.dll",
+        "lib/net5.0/SharpHook.xml",
+        "lib/net6.0/SharpHook.dll",
+        "lib/net6.0/SharpHook.xml",
+        "lib/netcoreapp3.1/SharpHook.dll",
+        "lib/netcoreapp3.1/SharpHook.xml",
+        "lib/netstandard2.0/SharpHook.dll",
+        "lib/netstandard2.0/SharpHook.xml",
+        "runtimes/linux-arm/native/libuiohook.so",
+        "runtimes/linux-arm/native/libuiohook.so.1",
+        "runtimes/linux-arm/native/libuiohook.so.1.2.0",
+        "runtimes/linux-arm64/native/libuiohook.so",
+        "runtimes/linux-arm64/native/libuiohook.so.1",
+        "runtimes/linux-arm64/native/libuiohook.so.1.2.0",
+        "runtimes/linux-x64/native/libuiohook.so",
+        "runtimes/linux-x64/native/libuiohook.so.1",
+        "runtimes/linux-x64/native/libuiohook.so.1.2.0",
+        "runtimes/osx-arm64/native/libuiohook.1.2.0.dylib",
+        "runtimes/osx-arm64/native/libuiohook.1.dylib",
+        "runtimes/osx-arm64/native/libuiohook.dylib",
+        "runtimes/osx-x64/native/libuiohook.1.2.0.dylib",
+        "runtimes/osx-x64/native/libuiohook.1.dylib",
+        "runtimes/osx-x64/native/libuiohook.dylib",
+        "runtimes/win-arm/native/uiohook.dll",
+        "runtimes/win-arm64/native/uiohook.dll",
+        "runtimes/win-x64/native/uiohook.dll",
+        "runtimes/win-x86/native/uiohook.dll",
+        "sharphook.3.1.1.nupkg.sha512",
+        "sharphook.nuspec"
+      ]
+    },
+    "SharpHook.Reactive/3.1.1": {
+      "sha512": "SQ3U+3Hq9xpJdmCn4P4Q8+K1MSL/eiiC0vU6P14S03XU5/9bQ1x/xhnTkQ/1dPkbl/f9IBfRPIExn263HCZOgQ==",
+      "type": "package",
+      "path": "sharphook.reactive/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net461/SharpHook.Reactive.dll",
+        "lib/net461/SharpHook.Reactive.xml",
+        "lib/net5.0/SharpHook.Reactive.dll",
+        "lib/net5.0/SharpHook.Reactive.xml",
+        "lib/net6.0/SharpHook.Reactive.dll",
+        "lib/net6.0/SharpHook.Reactive.xml",
+        "lib/netcoreapp3.1/SharpHook.Reactive.dll",
+        "lib/netcoreapp3.1/SharpHook.Reactive.xml",
+        "lib/netstandard2.0/SharpHook.Reactive.dll",
+        "lib/netstandard2.0/SharpHook.Reactive.xml",
+        "sharphook.reactive.3.1.1.nupkg.sha512",
+        "sharphook.reactive.nuspec"
+      ]
+    },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SharpHook >= 3.1.1",
+      "SharpHook.Reactive >= 3.1.1"
+    ]
+  },
+  "packageFolders": {
+    "/home/austind/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/austind/Documents/Code/VsCode/C#/KeyLogger/KeyLogger.csproj",
+      "projectName": "KeyLogger",
+      "projectPath": "/home/austind/Documents/Code/VsCode/C#/KeyLogger/KeyLogger.csproj",
+      "packagesPath": "/home/austind/.nuget/packages/",
+      "outputPath": "/home/austind/Documents/Code/VsCode/C#/KeyLogger/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/austind/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "SharpHook": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
+          "SharpHook.Reactive": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
