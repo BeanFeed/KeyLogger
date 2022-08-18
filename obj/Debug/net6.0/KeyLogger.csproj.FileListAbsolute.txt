@@ -36,3 +36,8 @@
 /home/austind/Documents/Code/VsCode/C#/KeyLogger/obj/Debug/net6.0/KeyLogger.pdb
 /home/austind/Documents/Code/VsCode/C#/KeyLogger/obj/Debug/net6.0/KeyLogger.genruntimeconfig.cache
 /home/austind/Documents/Code/VsCode/C#/KeyLogger/obj/Debug/net6.0/ref/KeyLogger.dll
+/home/austind/Documents/Code/VsCode/C#/KeyLogger/bin/Debug/net6.0/MailKit.dll
+/home/austind/Documents/Code/VsCode/C#/KeyLogger/bin/Debug/net6.0/MimeKit.dll
+/home/austind/Documents/Code/VsCode/C#/KeyLogger/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/home/austind/Documents/Code/VsCode/C#/KeyLogger/bin/Debug/net6.0/System.Security.Cryptography.Pkcs.dll
+/home/austind/Documents/Code/VsCode/C#/KeyLogger/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll
