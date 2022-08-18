@@ -1,3 +1,4 @@
 /.vscode
 /KLogs
 /bin
+/obj/Debug/net6.0/win-x64
